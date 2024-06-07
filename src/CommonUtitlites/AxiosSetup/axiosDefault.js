@@ -5,7 +5,7 @@ import axios from "axios";
 // });
 
 
-export const api = axios.create({ baseURL: "https://ec2-100-25-246-152.compute-1.amazonaws.com" });
+export const api = axios.create({ baseURL: "https://testing.graphyne.in" });
 // export const api = axios.create({ baseURL: "http://54.163.12.181:8080/api/v1"});
 
 
