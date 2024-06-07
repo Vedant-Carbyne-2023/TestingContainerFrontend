@@ -21,7 +21,7 @@ import theme from "./CommonUtitlites/Others/theme";
 
 function App() {
   const [materialRequisitionPermission, setMaterialRequisitionPermission] = useState([])
-  let components = useGetRoleWithPermission()
+  // let components = useGetRoleWithPermission()
   // let fetched= false
 
   // useEffect(() => {
