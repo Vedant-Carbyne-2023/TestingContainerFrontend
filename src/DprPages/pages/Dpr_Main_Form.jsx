@@ -6,7 +6,7 @@ import moment from 'moment';
 import Borewell from "./Borewell/Borewell";
 import Oht from "./OHT/Oht";
 import PumpHouse from "./PumpHouse/PumpHouse";
-import Jmr from "./JMR/JMR";
+import Jmr from "./JMR/Jmr";
 import Hydrotest from "./Hydrotest/Hydrotest";
 import Fhtc from "./FHTC/Fhtc";
 import BoundaryWall from "./BoundaryWall/BoundaryWall";
