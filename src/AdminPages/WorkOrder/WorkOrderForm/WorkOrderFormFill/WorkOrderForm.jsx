@@ -31,7 +31,12 @@ import 'react-quill/dist/quill.snow.css';
 
 export default function WorkOrderForm(props) {
 
-  let {backDate,futureDate,todayDate} = useGetDateSchema();
+  let [backDate, futureDate, todayDate] = [new Date(), new Date(), new Date()];
+
+// Adjust the dates
+backDate.setDate(todayDate.getDate() - 1); // Set backDate to yesterday
+futureDate.setDate(todayDate.getDate() + 1); // Set futureDate to tomorrow
+
   const [vendors, setVendors] = useState([]); 
   // let vendors = useGetVendorsAndContractors();
   const [vendorData, setVendorData] = useState("");
