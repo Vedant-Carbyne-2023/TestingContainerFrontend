@@ -1,0 +1,37 @@
+/* tableWithPaginationAndFilter.module.css */
+
+.containerFluid {
+    position: relative;
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    /* table-layout: fixed; */
+  }
+  
+  .table thead th {
+    position: sticky;
+    top: 0;
+    padding:0.5rem 0rem;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    z-index: 2;
+    text-align: left;
+    padding-left: 0.5rem;
+  }
+  
+  .table tbody th,
+  .table tbody td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9ecef; /* Adjust hover background color as needed */
+  }
+  

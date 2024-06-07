@@ -1,0 +1,30 @@
+/* customSelectStyles.module.css */
+
+/* Style for the select element */
+.select_container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .custom_select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    appearance: none;
+  }
+  
+  /* Style for the options */
+  .custom_select option {
+    width: 10rem;
+  white-space: pre-wrap; 
+  
+  word-wrap: break-word; /* Allow breaking long words into multiple lines */
+}
+.custom_select option::before {
+  width: 10rem;
+  content: attr(data-full-text);
+  white-space: normal; /* Preserve line breaks within options */
+  word-wrap: break-word; /* Allow breaking long words into multiple lines */
+    display: block;
+  }

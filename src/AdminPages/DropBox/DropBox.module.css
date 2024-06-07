@@ -1,0 +1,25 @@
+/* DropBox.module.css */
+.dropzone {
+  border: 2px dashed #cd0c0c;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50vh;
+  cursor: pointer;
+
+  transition: border-color 0.3s ease;
+}
+
+.dropzone.active {
+  border-color: #007bff; /* Change border color on hover */
+}
+
+.dropzone:hover::before {
+  content: "+"; /* Show a plus sign on hover */
+  font-size: 24px;
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+}

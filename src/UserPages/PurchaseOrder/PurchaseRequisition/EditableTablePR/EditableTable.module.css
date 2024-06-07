@@ -1,0 +1,42 @@
+.container {
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .table_editable {
+      display: none;
+     
+    }
+  
+    .row-wise-layout {
+        margin-top: 2rem;
+        padding: 1rem;
+      display: block;
+      border: 2px solid grey;
+      
+    }
+  
+    .column-name {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .add-row-button {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .row-wise-layout {
+      display: none;
+    }
+  
+    .table_editable {
+      display: table;
+    }
+  }
+  .ce-toolbar__plus{
+    display: none;
+  }

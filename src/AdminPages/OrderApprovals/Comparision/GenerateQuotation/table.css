@@ -1,0 +1,63 @@
+.ce-toolbar__plus svg,
+.ce-toolbar__settings-btn svg {
+  display: none;
+  pointer-events: none;
+  cursor: none;
+}
+.ce-toolbar__plus svg,
+.ce-toolbar__settings-btn svg  :hover{
+    cursor: none;
+  pointer-events: none;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td .form-control {
+  padding: 3px 10px; /* Adjust the padding as needed */
+  font-size: smaller;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #eaeaea;
+}
+/* CSS for small screens */
+@media (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container table thead {
+    display: none;
+  }
+
+  .container table tbody tr {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+
+  .container table tbody td {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .container table tbody td .column-name {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+}

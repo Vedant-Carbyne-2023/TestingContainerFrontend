@@ -1,0 +1,32 @@
+/* BoqForm.module.css */
+
+/* Add your custom styles here */
+.rowButtons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  justify-content: space-around; /* Default value for mobile screens */
+}
+
+.btn {
+  margin: 0.5rem;
+  padding: 5px 5px; /* Adjust padding for better button size */
+  cursor: pointer;
+  font-size: 14px; /* Increase font size for better readability */
+  border: 2px solid #94bce7; /* Use a consistent border color with your active state */
+  border-radius: 15px;
+  background-color: #ebeaf0;
+  color: black;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.btn:hover {
+  background-color: #abcce9; /* Adjust hover background color */
+}
+
+.btn.active {
+  background-color: #007bff;
+  color: #faf5f5;
+}
+
+/* Add more styles based on your requirements */

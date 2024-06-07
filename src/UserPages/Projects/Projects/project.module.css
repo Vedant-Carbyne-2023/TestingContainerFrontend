@@ -1,0 +1,113 @@
+.card {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 3px 3px 3px #8080808e;
+  width: auto;
+  padding: 0rem 1.5rem;
+  height: 12rem;
+  border: 0.5px solid #808080e4;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+}
+
+.card_2 {
+  box-shadow: 3px 3px 3px #8080808e;
+ height: 20rem;
+}
+
+@media (max-width: 800px) {
+  .card {
+    justify-content: initial;
+  }
+  .fullwidth {
+    width: 100%;
+  }
+  .card_2 {
+    height: 10rem;
+  }
+}
+
+.card_img {
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 6px #8080808e;
+}
+
+
+
+.card-body span {
+  font-size: smaller;
+  width: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+body {
+  color: black;
+}
+
+.titled {
+  padding: 0.7rem;
+}
+
+
+.profile-icon {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  margin-right: 1rem;
+  border: 2px solid #388bb5;
+  border-radius: 87%;
+  justify-content: center;
+  margin-left: 0;
+  align-items: center;
+}
+
+.member-profile {
+  display: flex;
+
+  vertical-align: middle;
+}
+
+
+.profile-details {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+.editing>button {
+  width: 3rem;
+  padding: 0.2rem;
+  background-color: #e2eeee;
+  color: #388bb5;
+  border-color: #6eb1cc;
+  border-radius: 20px;
+  transition: color 0.3s ease;
+}
+
+.modal-content {
+  padding: 2rem;
+}
+
+img {
+  transition: border-radius 0.3s ease;
+}
+
+img:hover {
+  border-radius: 0px;
+}
+
+.container {
+  display: flex;
+}

@@ -1,0 +1,24 @@
+.loader-container {
+    display: flex;
+    flex-direction: column; /* Align content along vertical axis */
+    justify-content: flex-start; /* Align content at the top */
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .progress-container {
+    height: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #3498db;
+    /* transition: width 0.5s ease-in-out; */
+  }
+  

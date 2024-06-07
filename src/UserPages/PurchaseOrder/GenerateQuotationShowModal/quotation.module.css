@@ -1,0 +1,35 @@
+/* Hide the default checkbox */
+
+  /* Create the slider */
+  .slider {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Style the slider's handle (the round button) */
+  .slider:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  /* Change the background color when the checkbox is checked */
+  input[type="checkbox"]:checked + .slider {
+    background-color: #2196f3;
+  }
+  
+  /* Move the slider's handle to the right when the checkbox is checked */
+  input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(30px);
+  }

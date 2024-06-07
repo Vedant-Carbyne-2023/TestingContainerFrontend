@@ -1,0 +1,61 @@
+.permissionsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Two-column layout */
+  gap: 20px;
+}
+
+.permissionComponent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.componentTitle {
+  /* font-size: 16px; */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.permissionTypes {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-; */
+}
+
+.permissionType {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.permissionTitle {
+  margin-right: 5px;
+  font-size: larger;
+}
+
+input[type="checkbox"] {
+  margin: 0.1rem 1rem  0px 1rem;
+}
+
+.permissionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.permissionComponent {
+  flex: 1;
+  min-width: calc(50% - 10px); /* Two-column layout */
+  box-sizing: border-box;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .permissionsContainer {
+    grid-template-columns: 1fr; /* One-column layout on smaller screens */
+  }
+}

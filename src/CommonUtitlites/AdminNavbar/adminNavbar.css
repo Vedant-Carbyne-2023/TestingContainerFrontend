@@ -1,0 +1,22 @@
+.dropdown-menu.show {
+    overflow: auto;
+}
+
+@media (max-width: 800px) {
+    .dropdown-menu.show {
+        max-height: 180px;
+        min-width: 7.5rem;
+    }
+
+    .nav-item {
+   
+        text-align: center; /* Optional: Center-align the text within the .nav-item */
+    }
+    .custom-nav-dropdown  {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+
+    
+}

@@ -1,0 +1,30 @@
+/* Add appropriate styles for your speed dial icon and message box */
+.speedDialIcon {
+    position: fixed;
+    cursor: pointer;
+    bottom: 1rem;
+    right: 1rem;
+    height: 2rem;
+    width: 2rem;
+    /* Add your icon styles here */
+  }
+  
+  .messageBox {
+    
+    position: fixed;
+    cursor: pointer;
+    bottom: 1rem;
+    right: 1rem;
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    /* Add more styles for the message box */
+  }
+  .closeButton{
+    width: fit-content;
+    margin-left: auto;
+  }

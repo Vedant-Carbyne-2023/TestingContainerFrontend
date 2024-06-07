@@ -1,0 +1,169 @@
+  <div className="row m-0 mb-2 p-0" style={{display:"flex", alignItems:'baseline'}}>
+          <h4>Compressor</h4>
+      <div className="row">
+          <div className="col-md-4">
+            <label htmlFor="compressorVendorName">Compressor Vendor Name</label>
+            <input
+              className="form-control"
+              id="compressorVendorName"
+              disabled
+              name="compressorVendorName"
+              value={compressorVendorName}
+            />
+          </div>
+
+       
+       
+          <div className="col-md-4">
+            <label htmlFor="compressorStartDate">Compressor Start Date</label>
+            <input
+              className="form-control"
+              id="compressorStartDate"
+              type="date"
+              name="compressorStartDate"
+              value={formData.compressorStartDate}
+              onChange={(e) => handleChange(e, "compressorStartDate")}
+            />
+          </div>
+          <div className="col-md-4">
+            <label htmlFor="compressorEndDate">Compressor End Date</label>
+            <input
+              className="form-control"
+              id="compressorEndDate"
+              type="date"
+              name="compressorEndDate"
+              value={formData.compressorEndDate}
+              onChange={(e) => handleChange(e, "compressorEndDate")}
+            />
+          </div>
+          </div>
+          <div className="row">
+          <div className="col-md-3">
+            <MyToggleComponent  setChecked={(check)=>setActiveCompressor(check)}/>
+          </div>
+          <div className="col-md-3">
+            {
+              activeCompressor
+              &&
+          <TimeInputComponent />
+            }
+          </div>
+          </div>
+          
+        </div>
+
+
+        <div className="row m-0 mb-2 p-0" style={{display:"flex", alignItems:'baseline'}}>
+          <h4>OP Unit</h4>
+      <div className="row">
+          <div className="col-md-4">
+            <label htmlFor="opUnitVendorName">OP Unit Vendor Name</label>
+            <input
+              className="form-control"
+              id="opUnitVendorName"
+              disabled
+              name="opUnitVendorName"
+              value={opUnitVendorName}
+            />
+          </div>
+
+       
+       
+          <div className="col-md-4">
+            <label htmlFor="opUnitStartDate">Compressor Start Date</label>
+            <input
+              className="form-control"
+              id="opUnitStartDate"
+              type="date"
+              name="opUnitStartDate"
+              value={formData.opUnitStartDate}
+              onChange={(e) => handleChange(e, "opUnitStartDate")}
+            />
+          </div>
+          <div className="col-md-4">
+            <label htmlFor="opUnitEndDate">Compressor End Date</label>
+            <input
+              className="form-control"
+              id="opUnitEndDate"
+              type="date"
+              name="opUnitEndDate"
+              value={formData.opUnitEndDate}
+              onChange={(e) => handleChange(e, "opUnitEndDate")}
+            />
+          </div>
+          </div>
+          <div className="row">
+          <div className="col-md-3">
+            <MyToggleComponent  setChecked={(check)=>setActiveCompressor(check)}/>
+          </div>
+          <div className="col-md-3">
+            {
+              activeCompressor
+              &&
+          <TimeInputComponent />
+            }
+          </div>
+          </div>
+          
+        </div>
+
+
+
+
+
+        <div className="row m-0 mb-2 p-0" style={{display:"flex", alignItems:'baseline'}}>
+            <div className="col-md-6"> 
+              <h4>Lowering</h4>
+  
+              <div className="col-md-6">  
+                <label htmlFor="loweringVendorName">Lowering Vendor Name</label>
+                <input
+                  className="form-control"
+                  id="loweringVendorName"
+                  disabled
+                  name="loweringVendorName"
+                  value={loweringVendorName}
+                />
+              </div>
+  
+              <div className="col-md-6">
+                <label htmlFor="loweringDate">Lowering Date</label>
+                <input
+                  className="form-control"
+                  id="loweringDate"
+                  type="date"
+                  name="loweringDate"
+                  value={formData.loweringDate}
+                  onChange={(e) => handleChange(e, "loweringDate")}
+                />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <h4>Gravel Packing</h4>
+  
+              <div className="col-md-6">
+                <label htmlFor="gravellingVendorName">
+                  Gravelling Vendor Name
+                </label>
+                <input
+                  className="form-control"
+                  id="gravellingVendorName"
+                  disabled
+                  name="gravellingVendorName"
+                  value={gravellingVendorName}
+                />
+              </div>
+  
+              <div className="col-md-6">
+                <label htmlFor="gravelPackingDate">Gravel Packing Date</label>
+                <input
+                  className="form-control"
+                  id="gravelPackingDate"
+                  type="date"
+                  name="gravelPackingDate"
+                  value={formData.gravelPackingDate}
+                  onChange={(e) => handleChange(e, "gravelPackingDate")}
+                />
+              </div>
+            </div>
+          </div>

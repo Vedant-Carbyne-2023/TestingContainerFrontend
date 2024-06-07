@@ -1,0 +1,14 @@
+.input-wrapper {
+    position: relative;
+  }
+  
+  .input-wrapper input {
+    padding-right: 40px; /* Adjust the padding to accommodate the button */
+  }
+  
+  .input-wrapper button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }

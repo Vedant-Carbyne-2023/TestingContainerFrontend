@@ -1,0 +1,30 @@
+.formContainer {
+    background-color: #e2eeee7e;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 40rem;
+    margin: auto;
+    padding: 40px;
+    margin-top: 1rem;
+    height: auto; 
+    background-color: none;
+    box-shadow: 0 0 10px gray;
+    border: 3px solid gray;
+    border-radius: 20px;
+  }
+  
+.registrationForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.display_4 {
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 1.2;
+  text-decoration: underline;
+    text-align: center;
+}
+  

@@ -1,0 +1,60 @@
+/* tablesticky.module.css */
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 50rem;
+  }
+  
+  .tableWrapper {
+    height: 70vh;
+    overflow: auto;
+    margin: 1rem;
+    margin-top: 0;
+  }
+  
+  .table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .cell {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .thCell {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .thHeader {
+    font-weight: bold;
+    background-color: #f2f2f2;
+
+  }
+  
+  .table th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: black;
+  }
+  .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .stickyHeader {
+    position: sticky;
+    top: 0;
+    background-color:rgb(6, 137, 149);
+    color: white;
+  }
+  

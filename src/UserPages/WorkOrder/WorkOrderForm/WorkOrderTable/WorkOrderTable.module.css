@@ -1,0 +1,47 @@
+/* WorkOrderTable.module.css */
+.tableContainer {
+    margin-top: 3rem;
+  }
+  
+  .selectCompany {
+    margin-bottom: 1rem;
+  }
+  
+  .displayTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .stickyThead th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .tableCell {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .btnLink {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .btnDownloadPDF {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btnSendEmail {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btnSendEmail[disabled] {
+    background-color: #ccc;
+    color: #000;
+  }
+  

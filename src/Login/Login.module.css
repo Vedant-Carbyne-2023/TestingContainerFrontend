@@ -1,0 +1,52 @@
+.formContainer {
+  background-color: #e2eeee7e;
+  display: flex;
+ 
+  justify-content: space-around;
+  /* max-width: 35rem; */
+  padding: 30px;
+  background-color: none;
+  box-shadow: 0 0 10px gray;
+  border: 3px solid gray;
+  border-radius: 20px; 
+  /* margin: auto;
+  margin-top: 1rem;*/
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the container takes up the full viewport height */
+}
+
+
+.display_4 {
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-align: center;
+  margin: auto 3rem;
+}
+
+
+
+.loginForm {
+  padding: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border-top: 3px solid navy; */
+}
+
+
+@media (max-width: 539px) {
+  .formContainer {
+    flex-direction: column;
+  }
+  .display_4 {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+}
