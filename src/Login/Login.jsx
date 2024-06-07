@@ -44,7 +44,7 @@ export default function Login() {
         authenticateUser(result.data.token);
 
         if (result.data.data.role === "SuperUser") {
-          navigate("/admin/organisation");
+          navigate("/admin/workOrder");
         }
 
         let result2 = api.post("/get-user-role", { userId: result.data.data.id, role: result.data.data.role });
