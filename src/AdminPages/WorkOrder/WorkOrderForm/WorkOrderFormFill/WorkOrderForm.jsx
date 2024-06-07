@@ -686,7 +686,7 @@ const [deliveryAddress, setDeliveryAddress] = useState("");
               <label htmlFor="project">Select Project </label>
               <select
                 id="project"
-                required
+                // required
                 name="project"
                 className="form-control mb-4  "
                 onChange={handleCompanyChange}

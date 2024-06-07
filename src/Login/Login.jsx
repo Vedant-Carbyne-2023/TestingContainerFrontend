@@ -47,13 +47,13 @@ export default function Login() {
           navigate("/admin/workOrder");
         }
 
-        let result2 = api.post("/get-user-role", { userId: result.data.data.id, role: result.data.data.role });
-        result2 = await errorHandler(result2);
-        let link = result2.data.data[0];
+        // let result2 = api.post("/get-user-role", { userId: result.data.data.id, role: result.data.data.role });
+        // result2 = await errorHandler(result2);
+        // let link = result2.data.data[0];
 
-        if (localStorage.getItem("isAuthenticated")) {
-          navigate(`/user/${toLowerCase(link.nameOfComponent)}/${link._id}`);
-        }
+        // if (localStorage.getItem("isAuthenticated")) {
+        //   navigate(`/user/${toLowerCase(link.nameOfComponent)}/${link._id}`);
+        // }
       } else if (result && result.data.code === 100) {
         alert(result.data.message);
         setShowOtp(true);

@@ -918,11 +918,11 @@ const MakePdfForWorkOrder = ({ data, tableData, toggle, pdfStatus }) => {
         formData.append("amend", data.amend);
       }
 
-      let result = api.post("/update-workOrder", formData);
-      result = await errorHandler(result);
+      // let result = api.post("/update-workOrder", formData);
+      // result = await errorHandler(result);
       // console.log(result);
       // workOrderId(result.data.data.workOrderId)
-      pdfStatus(result.data.data)
+      // pdfStatus(result.data.data)
       setLoading(false)
       Swal.fire({
         icon:"success",
