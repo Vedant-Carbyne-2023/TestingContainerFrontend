@@ -8,7 +8,7 @@ const InventoryManagement = () => {
     const [inventoryUpdates, setInventoryUpdates] = useState([]);
 
     useEffect(() => {
-        const ws = new ReconnectingWebSocket('wss://testing.graphyne.in/inventory');
+        const ws = new ReconnectingWebSocket('wss://testing.graphyne.in/ws');
 
         ws.onopen = () => {
             console.log('WebSocket connection established');
