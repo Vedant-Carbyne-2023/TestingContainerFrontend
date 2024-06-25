@@ -40,7 +40,7 @@ const Dpr_Mis_Report = lazy(() => import('../DprPages/pages/DailyData/Dpr_Mis_Re
 const Dpr_Daily_Report = lazy(() => import('../DprPages/pages/DPRDaily/Dpr_Daily_Report'));
 const Dpr_Consolidate_Report = lazy(() => import('../DprPages/pages/Consolidate/Dpr_Consolidate_Report'));
 const Testing = lazy(() => import('../AdminPages/Testing'));
-
+const InventoryManagement = lazy(() => import('../AdminPages/InventoryManagement/InventoryManagement'))
 
 
 export const routes1 = [
@@ -84,4 +84,5 @@ export const routes1 = [
     { path: "vendorapproval", element: VendorApprovalPage  },
     { path: "contractorapproval", element: ContractorApprovalPage  },
     { path: "testing", element: Testing  },
+    { path: "inventory_management", element: InventoryManagement  },
 ];

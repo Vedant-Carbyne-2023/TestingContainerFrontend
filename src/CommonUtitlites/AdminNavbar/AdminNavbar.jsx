@@ -199,6 +199,9 @@ console.log(openChildMenu)
       <Button as={NavLink} to="/admin/vendorProfile" variant="text"  onClick={isMobile?handleDrawerToggle:""} activeClassName="active">
         <i className="fa-solid fa-cube" ></i>Vendors
       </Button>
+      <Button as={NavLink} to="/admin/inventory_management" variant="text"  onClick={isMobile?handleDrawerToggle:""} activeClassName="active">
+        <i className="fa-solid fa-cube" ></i>Inventory
+      </Button>
 
             
       </Box>
