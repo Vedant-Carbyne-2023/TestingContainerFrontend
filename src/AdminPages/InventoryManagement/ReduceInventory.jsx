@@ -15,7 +15,7 @@ export default function ReduceInventory() {
 
     try {
       // Send a POST request to your backend API
-      const response = await api.post('inventory-outward/outward', {
+      const response = await api.post('outward/outward', {
         itemId,
         name,
         quantity

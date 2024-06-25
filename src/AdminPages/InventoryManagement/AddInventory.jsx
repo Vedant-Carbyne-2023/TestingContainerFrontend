@@ -15,7 +15,7 @@ export default function AddInventory() {
 
     try {
       // Send a POST request to your backend API
-      const response = await api.post('inventory-inward/inward', {
+      const response = await api.post('inward/inward', {
         itemId,
         name,
         quantity
